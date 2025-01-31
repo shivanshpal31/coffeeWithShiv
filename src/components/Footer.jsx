@@ -10,6 +10,7 @@ import {
   FaInstagram,
   FaTelegram,
   FaGoogle,
+  FaLinkedin,
 } from "react-icons/fa";
 import { FaMapLocation } from "react-icons/fa6";
 import CrediCards from "../assets/website/credit-cards.webp";
@@ -36,10 +37,12 @@ const Footer = () => {
           >
             <h1 className="text-3xl font-bold uppercase">Coder Cafe</h1>
             <p className="text-sm max-w-[300px]">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam
-              iste laborum dolor autem recusandae repellat! Porro corrupti,
-              repellendus quam quod numquam quisquam aperiam ipsam officiis
-              itaque aspernatur eos praesentium soluta.
+              Indulge in the perfect blend of aroma, taste, and warmth. We serve
+              freshly brewed coffee crafted from the finest beans, offering
+              everything from bold espressos to creamy lattes and refreshing
+              cold brews. Whether you need a morning boost or a relaxing break,
+              our café is your go-to destination. Order online, earn rewards,
+              and savor every sip.
             </p>
             <div>
               <p className="flex item-center gap-2 mt-2">
@@ -80,10 +83,10 @@ const Footer = () => {
               {/* Second Column section */}
               <div>
                 <ul>
-                  <li>Home</li>
-                  <li>About Us</li>
-                  <li>Contact Us</li>
-                  <li>privacy Policy</li>
+                  <li>Black  Coffee</li>
+                  <li>Cold Coffee</li>
+                  <li>Hot Coffee</li>
+                  <li>Galäo Coffee</li>
                 </ul>
               </div>
             </div>
@@ -104,10 +107,10 @@ const Footer = () => {
           >
             <h1 className="text-3xl font-bold">Follow Us</h1>
             <div className="flex item-center gap-3">
-              <FaFacebookF className="text-3xl hover:scale-105 duration-300" />
-              <FaInstagram className="text-3xl hover:scale-105 duration-300" />
-              <FaTelegram className="text-3xl hover:scale-105 duration-300" />
-              <FaGoogle className="text-3xl hover:scale-105 duration-300" />
+              <a href="https://www.linkedin.com/in/shivansh-pal-ase/" target="_blank"><FaLinkedin className="text-3xl hover:scale-105 duration-300 cursor-pointer" /></a>
+              <a href="https://www.instagram.com/shiv_ansh_31?igsh=NzgybjZrYWZ1d2c4" target="_blank"><FaInstagram className="text-3xl hover:scale-105 duration-300" /></a>
+              <a href="https://t.me/shivtheduce" target="_blank"><FaTelegram className="text-3xl hover:scale-105 duration-300" /></a>
+              <a href="mailto:shivanshpal31@gmail.com" target="_blank"><FaGoogle className="text-3xl hover:scale-105 duration-300" /></a>
             </div>
             <div>
               <h1 className="text-xl font-semibold mb-2">Payment Method</h1>
@@ -116,7 +119,7 @@ const Footer = () => {
           </motion.div>
         </div>
         <p className="text-white text-center mt-8 pt-8 border-t-2">
-          Copyright @ 2024 Company Name. All rights reserved
+          Copyright @ 2025 Shivansh Pal. All rights reserved
         </p>
       </div>
     </div>

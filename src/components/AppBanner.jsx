@@ -22,43 +22,47 @@ const AppBanner = () => {
       >
         <div>
           <div className="space-y-6 max-w-xl mx-auto">
-            <motion.h1 
-            initial={{ opacity: 0, y: 100 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{
-              type: "spring",
-              stiffness: 100,
-              damping: 10,
-              delay: 0.2,
-            }}
-            className="text-2xl text-center sm:text-4xl font-semibold">
+            <motion.h1
+              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                type: "spring",
+                stiffness: 100,
+                damping: 10,
+                delay: 0.2,
+              }}
+              className="text-2xl text-center sm:text-4xl font-semibold"
+            >
               Download the app
             </motion.h1>
-            <motion.p 
-            initial={{ opacity: 0, y: 100 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{
-              type: "spring",
-              stiffness: 100,
-              damping: 10,
-              delay: 0.4,
-            }}
-            className="text-center sm:px-20">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              assumenda non labore dolorum quaerat officia{" "}
+            <motion.p
+              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                type: "spring",
+                stiffness: 100,
+                damping: 10,
+                delay: 0.4,
+              }}
+              className="text-center sm:px-20"
+            >
+              Order your favorite coffee anytime, earn rewards, and enjoy
+              exclusive deals. Download now for a seamless experience and fresh
+              brews at your fingertips!{" "}
             </motion.p>
 
             {/* image link  */}
-            <motion.div 
-            initial={{ opacity: 0, scale: 0.2 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 100,
-              damping: 10,
-              delay: 0.5,
-            }}
-            className="flex justify-center items-center gap-4">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.2 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{
+                type: "spring",
+                stiffness: 100,
+                damping: 10,
+                delay: 0.5,
+              }}
+              className="flex justify-center items-center gap-4"
+            >
               <a
                 href="#"
                 className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"

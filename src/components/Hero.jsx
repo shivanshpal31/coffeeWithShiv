@@ -3,7 +3,7 @@ import BgImagePic from "../assets/bg-slate.png";
 import cupImage from "../assets/black.png";
 import Navbar from "./Navbar";
 import { motion } from "framer-motion";
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const bgImage = {
   backgroundImage: `url(${BgImagePic})`,
@@ -54,9 +54,9 @@ const Hero = () => {
                 <div className="relative z-10 space-y-4">
                   <h1 className="text-2xl">Black Lifestyle Lovers,</h1>
                   <h1 className="text-sm opacity-55 leading-loose">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Earum porro laboriosam ipsum, rerum ex corporis non officia
-                    culpa sequi suscipit dolorum tenetur o
+                    Savor the perfect brew! From rich espresso to creamy lattes,
+                    we serve handcrafted coffee with love. Step in, sip, and
+                    awaken your senses.
                   </h1>
                 </div>
                 <div className="absolute -top-6 -left-10 w-[250px] h-[190px] bg-gray-700/25 ml-5"></div>
@@ -67,7 +67,7 @@ const Hero = () => {
               <motion.img
                 initial={{ opacity: 1, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
-                whileInView={{opacity:1, scale:1}}
+                whileInView={{ opacity: 1, scale: 1 }}
                 transition={{
                   type: "spring",
                   stiffness: 100,
@@ -125,11 +125,11 @@ const Hero = () => {
                   className="relative"
                 >
                   <div className="relative z-10 space-y-4">
-                    <h1 className="text-2xl">Blvck Lifestyle Lovers,</h1>
-                    <h1 className="text-sm opacity-55 leading-loose">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Earum porro laboriosam ipsum, rerum ex corporis non
-                      officia culpa sequi suscipit dolorum tenetur o
+                    <h1 className="text-2xl">Brewing Happiness</h1>
+                    <h1 className="text-sm opacity-55 leading-loose italic ">
+                      "Life begins after coffee. Every sip awakens your senses,
+                      fuels your passion, and brings warmth to your soul. Start
+                      your day with the perfect brew.""
                     </h1>
                   </div>
                   <div className="absolute -top-6 -right-10 w-[250px] h-[190px] bg-darkGray/50 mr-5"></div>
@@ -150,13 +150,13 @@ const Hero = () => {
 
                 {/* Social Icon */}
                 <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
-                  <FaFacebookF className="text-2xl" />
+                <a href="https://www.linkedin.com/in/shivansh-pal-ase/" target="_blank"><FaLinkedin className="text-2xl" /></a>
                 </div>
                 <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
-                  <FaTwitter className="text-2xl" />
+                  <a href="https://github.com/shivanshpal31" target="_blank"><FaGithub className="text-2xl" /></a>
                 </div>
                 <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
-                  <FaInstagram className="text-2xl" />
+                <a href="https://www.instagram.com/shiv_ansh_31?igsh=NzgybjZrYWZ1d2c4" target="_blank"><FaInstagram className="text-2xl" /></a>
                 </div>
                 <div className="w-[1px] h-[70px] bg-white"></div>
               </div>

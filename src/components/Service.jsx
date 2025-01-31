@@ -10,21 +10,21 @@ const servicesData = [
     image: Coffee1,
     title: "Black Coffee",
     subtitle:
-      "Lorem Ipsum dolar Lorem Ipsum dolar Lorem Ipsum dolar Lorem Ipsum dolar",
+      "Bold, pure, and energizing—coffee in its truest form.",
   },
   {
     id: 2,
     image: Coffee2,
     title: "Cold Coffee",
     subtitle:
-      "Lorem Ipsum dolar Lorem Ipsum dolar Lorem Ipsum dolar Lorem Ipsum dolar",
+      "Warm your soul with every comforting sip.",
   },
   {
     id: 3,
     image: Coffee3,
     title: "Hot Coffee",
     subtitle:
-      "Lorem Ipsum dolar Lorem Ipsum dolar Lorem Ipsum dolar Lorem Ipsum dolar",
+      "Chilled, creamy, and refreshingly delicious.",
   },
 ];
 
@@ -82,10 +82,10 @@ const Service = () => {
           }}
           className="text-sm opacity-50"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          libero, voluptates eaque id tempore perferendis natus suscipit,
-          eligendi est molestiae modi odit vel ea porro repellat eveniet neque
-          similique quaerat.
+          Savor the aroma of freshly brewed coffee made from the finest beans.
+          Each cup is crafted to perfection, delivering rich flavors and a
+          smooth taste. Whether you love a bold espresso or a creamy latte, we
+          serve freshness in every sip!
         </motion.p>
       </div>
       {/* card section  */}
@@ -97,7 +97,10 @@ const Service = () => {
         className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"
       >
         {servicesData.map((service) => (
-          <motion.div variants={cardVariants} className="text-center p-4 space-y-6">
+          <motion.div
+            variants={cardVariants}
+            className="text-center p-4 space-y-6"
+          >
             <img
               src={service.image}
               alt=""
