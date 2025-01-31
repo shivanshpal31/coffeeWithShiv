@@ -60,7 +60,7 @@ const Service = () => {
       <div className="text-center max-w-lg mx-auto space-y-2">
         <motion.h1
           initial={{ opacity: 0, y: -100 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{
             type: "spring",
             stiffness: 150,
@@ -73,7 +73,7 @@ const Service = () => {
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, scale: 0.5 }}
-          whileInView={{ opacity: 1, scale: 1 }}
+          animate={{ opacity: 1, scale: 1 }}
           transition={{
             type: "spring",
             stiffness: 150,
@@ -92,7 +92,7 @@ const Service = () => {
       <motion.div
         variants={containerVariants}
         initial="hidden"
-        whileInView={"visible"}
+        animate={"visible"}
         viewport={{ amount: 0.8 }}
         className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"
       >
