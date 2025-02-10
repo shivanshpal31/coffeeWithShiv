@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Coffee1 from "../assets/coffee/coffee1.png";
-import Coffee2 from "../assets/coffee/coffee3.png";
+import Coffee2 from "../assets/coffee/coffee2.png";
 import Coffee3 from "../assets/coffee/coffee3.png";
 
 const servicesData = [

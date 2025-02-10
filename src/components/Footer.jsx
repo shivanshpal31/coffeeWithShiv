@@ -1,12 +1,6 @@
 import React from "react";
 import {
-  FaFacebook,
-  GaGppgle,
-  GaInstagram,
-  GaPhone,
-  Fateegram,
   FaPhone,
-  FaFacebookF,
   FaInstagram,
   FaTelegram,
   FaGoogle,
@@ -46,12 +40,11 @@ const Footer = () => {
             </p>
             <div>
               <p className="flex item-center gap-2 mt-2">
-                <FaPhone />
-                +91 8887352496
+                <FaPhone /><a href="tel: +91 8887352496" >+91 8887352496</a>                
               </p>
               <p className="flex item-center gap-2 mt-2">
                 {" "}
-                <FaMapLocation /> Noida, Uttar Pradesh
+                <FaMapLocation /> Bengaluru, Karnataka
               </p>
             </div>
           </motion.div>
@@ -107,10 +100,10 @@ const Footer = () => {
           >
             <h1 className="text-3xl font-bold">Follow Us</h1>
             <div className="flex item-center gap-3">
-              <a href="https://www.linkedin.com/in/shivansh-pal-ase/" target="_blank"><FaLinkedin className="text-3xl hover:scale-105 duration-300 cursor-pointer" /></a>
-              <a href="https://www.instagram.com/shiv_ansh_31?igsh=NzgybjZrYWZ1d2c4" target="_blank"><FaInstagram className="text-3xl hover:scale-105 duration-300" /></a>
-              <a href="https://t.me/shivtheduce" target="_blank"><FaTelegram className="text-3xl hover:scale-105 duration-300" /></a>
-              <a href="mailto:shivanshpal31@gmail.com" target="_blank"><FaGoogle className="text-3xl hover:scale-105 duration-300" /></a>
+              <a href="https://www.linkedin.com/in/shivansh-pal-ase/" rel="noreferrer" target="_blank"><FaLinkedin className="text-3xl hover:scale-105 duration-300 cursor-pointer" /></a>
+              <a href="https://www.instagram.com/shiv_ansh_31?igsh=NzgybjZrYWZ1d2c4" rel="noreferrer" target="_blank"><FaInstagram className="text-3xl hover:scale-105 duration-300" /></a>
+              <a href="https://t.me/shivtheduce" rel="noreferrer" target="_blank"><FaTelegram className="text-3xl hover:scale-105 duration-300" /></a>
+              <a href="mailto:shivanshpal31@gmail.com" rel="noreferrer" target="_blank"><FaGoogle className="text-3xl hover:scale-105 duration-300" /></a>
             </div>
             <div>
               <h1 className="text-xl font-semibold mb-2">Payment Method</h1>

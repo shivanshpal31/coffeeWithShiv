@@ -3,15 +3,13 @@ import BgImagePic from "../assets/bg-slate.png";
 import cupImage from "../assets/black.png";
 import Navbar from "./Navbar";
 import { motion } from "framer-motion";
-import { FaFacebookF, FaTwitter, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const bgImage = {
   backgroundImage: `url(${BgImagePic})`,
   backgroundSize: "Cover",
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
-  // width:"100%",
-  // height:"100vh"
 };
 
 const Hero = () => {
@@ -19,7 +17,7 @@ const Hero = () => {
 
   return (
     <main style={bgImage}>
-      <section className="relative min-h-[750px] w-full">
+      <section className="relative min-h-[750px] w-full pb-10 lg:pb-0">
         <div className="container">
           {/*Navbar Section*/}
           <Navbar sidebar={sidebar} setSidebar={setSidebar} />
@@ -150,13 +148,13 @@ const Hero = () => {
 
                 {/* Social Icon */}
                 <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
-                <a href="https://www.linkedin.com/in/shivansh-pal-ase/" target="_blank"><FaLinkedin className="text-2xl" /></a>
+                <a href="https://www.linkedin.com/in/shivansh-pal-ase/" rel="noreferrer" target="_blank"><FaLinkedin className="text-2xl" /></a>
                 </div>
                 <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
-                  <a href="https://github.com/shivanshpal31" target="_blank"><FaGithub className="text-2xl" /></a>
+                  <a href="https://github.com/shivanshpal31" rel="noreferrer" target="_blank"><FaGithub className="text-2xl" /></a>
                 </div>
                 <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
-                <a href="https://www.instagram.com/shiv_ansh_31?igsh=NzgybjZrYWZ1d2c4" target="_blank"><FaInstagram className="text-2xl" /></a>
+                <a href="https://www.instagram.com/shiv_ansh_31?igsh=NzgybjZrYWZ1d2c4" rel="noreferrer" target="_blank"><FaInstagram className="text-2xl" /></a>
                 </div>
                 <div className="w-[1px] h-[70px] bg-white"></div>
               </div>
